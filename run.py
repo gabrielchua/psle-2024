@@ -119,7 +119,7 @@ image_files = sorted(data_dir.glob("*.png"))
 
 models = {
     "gpt-4o-2024-11-20": openai_client,
-    "anthropic.claude-3-5-gemini_client-20241022-v2:0": anthropic_client,
+    "anthropic.claude-3-5-sonnet-20241022-v2:0": anthropic_client,
     "gemini-1.5-pro-002": gemini_model,
 }
 
