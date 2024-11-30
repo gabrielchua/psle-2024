@@ -19,12 +19,11 @@ from openai import OpenAI
 from vertexai.generative_models import (
     GenerationConfig,
     GenerativeModel,
-    SafetySetting,
     Part,
 )
 
 # Local Imports
-from config import Answer, SYSTEM_PROMPT
+from config import Answer, GEMINI_RESPONSE_SCHEMA, GEMINI_SAFETY, SYSTEM_PROMPT
 
 
 # Constants
@@ -52,59 +51,10 @@ anthropic_client = instructor.from_anthropic(
 # Initialize Google Generative AI client
 vertexai.init()
 
-gemini_response_schema = {
-    "type": "array",
-    "items": {
-        "type": "object",
-        "properties": {
-            "step_1_question_type": {
-                "type": "string",
-                "enum": [
-                    "multiple_choice",
-                    "open_ended",
-                    "open_ended_with_multiple_parts",
-                ],
-                "description": "The type of question.",
-            },
-            "step_2_reasoning": {
-                "type": "string",
-                "description": "The reasoning for the answer.",
-            },
-            "step_3_final_answer": {"type": "string"},
-            "step_4_final_choice": {
-                "type": "integer",
-                "minimum": 1,
-                "maximum": 4,
-                "description": "The final choice of the answer (1,2,3,4) if the question is a multiple choice question.",
-                "nullable": True,
-            },
-        },
-    },
-}
-
-gemini_safety = [
-    SafetySetting(
-        category=SafetySetting.HarmCategory.HARM_CATEGORY_HATE_SPEECH,
-        threshold=SafetySetting.HarmBlockThreshold.OFF,
-    ),
-    SafetySetting(
-        category=SafetySetting.HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT,
-        threshold=SafetySetting.HarmBlockThreshold.OFF,
-    ),
-    SafetySetting(
-        category=SafetySetting.HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT,
-        threshold=SafetySetting.HarmBlockThreshold.OFF,
-    ),
-    SafetySetting(
-        category=SafetySetting.HarmCategory.HARM_CATEGORY_HARASSMENT,
-        threshold=SafetySetting.HarmBlockThreshold.OFF,
-    ),
-]
-
 gemini_model = GenerativeModel(
     "gemini-1.5-pro-002",
     system_instruction=[SYSTEM_PROMPT],
-    safety_settings=gemini_safety,
+    safety_settings=GEMINI_SAFETY,
 )
 
 
@@ -163,23 +113,33 @@ for model_name, client in models.items():
                             ["Here is the question", image],
                             generation_config=GenerationConfig(
                                 response_mime_type="application/json",
-                                response_schema=gemini_response_schema,
+                                response_schema=GEMINI_RESPONSE_SCHEMA,
                             ),
                         )
                         response = json.loads(
                             response.candidates[0].content.parts[0].text
                         )[0]
-                        question_type = response["step_1_question_type"]
-                        reasoning = response["step_2_reasoning"]
-                        final_answer = response["step_3_final_answer"]
-                        final_choice = response["step_4_final_choice"]
+                        question_type = response["step_1_question_type"] or None
+                        reasoning = response["step_2_reasoning"] or None
+                        final_answer = response["step_3_final_answer"] or None
+                        final_choice = response["step_4_final_choice"] or None
                         break
                     except Exception as e:
+                        try:
+                            print(response)
+                        except:
+                            pass
                         print(f"Error: {e}")
                         if attempt < 2:  # Don't sleep on last attempt
                             time.sleep(RETRY_WAIT)
                         else:
-                            raise e  # Re-raise exception on final attempt
+                            # Skip after 2 failed attempts
+                            print(f"Skipping {question_number} after 2 failed attempts")
+                            question_type = "skipped"
+                            reasoning = f"Skipped due to errors - {e}"
+                            final_answer = "skipped"
+                            final_choice = None
+                            break
 
             # For OpenAI and Anthropic
             else:
