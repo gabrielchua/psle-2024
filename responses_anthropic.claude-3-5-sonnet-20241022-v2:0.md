@@ -23,6 +23,8 @@ Let's solve this step by step:
 
 **Choice:** 4
 
+**Correct:** Yes (+1)
+
 ---
 
 ## Question s1q02
@@ -49,6 +51,8 @@ Therefore, option (4) is correct.
 
 **Choice:** 4
 
+**Correct:** Yes (+1)
+
 ---
 
 ## Question s1q03
@@ -64,6 +68,8 @@ Therefore, 0.5 expressed as a percentage is 50%.
 **Answer:** 50%
 
 **Choice:** 4
+
+**Correct:** Yes (+1)
 
 ---
 
@@ -91,6 +97,8 @@ The correct answer is option 2: (12 - z) years old
 
 **Choice:** 2
 
+**Correct:** Yes (+1)
+
 ---
 
 ## Question s1q05
@@ -113,6 +121,8 @@ Therefore, 7/9 has the largest value.
 **Answer:** 7/9
 
 **Choice:** 1
+
+**Correct:** Yes (+1)
 
 ---
 
@@ -143,6 +153,8 @@ Therefore, $1.40 is not possible because it would require two 10¢ coins, but Sa
 **Answer:** $1.40
 
 **Choice:** 2
+
+**Correct:** Yes (+1)
 
 ---
 
@@ -193,6 +205,8 @@ Therefore, point C is south-east of point B.
 
 **Choice:** 3
 
+**Correct:** No (Correct option is #4)
+
 ---
 
 ## Question s1q09
@@ -217,6 +231,8 @@ Let's solve this step by step:
 
 **Choice:** 1
 
+**Correct:** Yes (+1)
+
 ---
 
 ## Question s1q10
@@ -236,6 +252,8 @@ Let's solve this step by step:
 **Answer:** 11 : 17
 
 **Choice:** 1
+
+**Correct:** Yes (+1)
 
 ---
 
@@ -261,6 +279,8 @@ Let's solve this step by step:
 **Answer:** 53
 
 **Choice:** 4
+
+**Correct:** No (Correct option is #3)
 
 ---
 
@@ -293,6 +313,8 @@ Looking at the choices, 51.4 cm is option (3).
 
 **Choice:** 3
 
+**Correct:** Yes (+2)
+
 ---
 
 ## Question s1q13
@@ -317,6 +339,8 @@ Therefore, his last intake would be at 7 p.m.
 
 **Choice:** 3
 
+**Correct:** Yes (+2)
+
 ---
 
 ## Question s1q14
@@ -338,6 +362,8 @@ Therefore, option 4 is not a valid net of a cube.
 **Answer:** The pattern in option 4 is not a net of a cube because it has 7 squares and would result in overlapping faces when folded.
 
 **Choice:** 4
+
+**Correct:** No (Correct option is #1)
 
 ---
 
@@ -366,6 +392,8 @@ Looking at the options, $32 corresponds to choice (4).
 
 **Choice:** 4
 
+**Correct:** No (Correct option is #1)
+
 ---
 
 ## Question s1q16
@@ -388,6 +416,8 @@ Let's solve this step by step:
 
 **Answer:** 3.515
 
+**Correct:** Yes (+1)
+
 ---
 
 ## Question s1q17
@@ -407,6 +437,8 @@ Therefore, 68 - 12 ÷ 2 + 13 = 75
 
 **Answer:** 75
 
+**Correct:** Yes (+1)
+
 ---
 
 ## Question s1q18
@@ -422,6 +454,8 @@ To find the average amount donated by each woman:
 
 **Answer:** $210
 
+**Correct:** Yes (+1)
+
 ---
 
 ## Question s1q19
@@ -436,6 +470,8 @@ To convert a fraction to a decimal, I'll divide the numerator by the denominator
 This can be verified by multiplying 0.125 × 8 = 1
 
 **Answer:** 0.125
+
+**Correct:** Yes (+1)
 
 ---
 
@@ -460,6 +496,8 @@ Therefore, she started driving at 8:00 a.m.
 
 **Answer:** 8:00 a.m.
 
+**Correct:** Yes (+1)
+
 ---
 
 ## Question s1q21
@@ -479,6 +517,8 @@ Let me solve this step by step:
    * Total cost = $5 + $6 = $11
 
 **Answer:** $11
+
+**Correct:** Yes (+2)
 
 ---
 
@@ -511,6 +551,8 @@ Therefore, ∠BCE = 20°
 
 **Answer:** 20°
 
+**Correct:** No
+
 ---
 
 ## Question s1q23
@@ -525,6 +567,8 @@ Let's solve this step by step:
 4. Looking at the grid, Point D is in the South-West direction from Point X
 
 **Answer:** D
+
+**Correct:** No
 
 ---
 
@@ -550,6 +594,8 @@ Therefore, when m = 9, the expression equals -59.
 
 **Answer:** -59
 
+**Correct:** No
+
 ---
 
 ## Question s1q25
@@ -563,6 +609,8 @@ The height is 10 cm.
 Therefore, volume = 3 cm × 3 cm × 10 cm = 90 cubic centimeters.
 
 **Answer:** 90 cubic centimeters
+
+**Correct:** Yes (+2)
 
 ---
 
@@ -589,6 +637,8 @@ Let's solve this step by step:
 This is already in the simplest form as both terms are divided by 7.
 
 **Answer:** (24z - 27)/7
+
+**Correct:** Yes (+2)
 
 ---
 
@@ -618,6 +668,8 @@ Therefore, Jenny's initial savings was $300.
 
 **Answer:** $300
 
+**Correct:** Yes (+2)
+
 ---
 
 ## Question s1q28
@@ -643,6 +695,8 @@ Let's solve this step by step:
 Since x must be a whole number, and we want the largest possible number of women, x = 29.
 
 **Answer:** 29
+
+**Correct:** Yes (+2)
 
 ---
 
@@ -675,6 +729,8 @@ The numbers check out.
 
 **Answer:** 35
 
+**Correct:** Yes (+2)
+
 ---
 
 ## Question s1q30
@@ -702,6 +758,8 @@ Let me solve this step by step:
 Therefore, Store B sold 4/15 of the total watches.
 
 **Answer:** 4/15
+
+**Correct:** No
 
 ---
 
@@ -734,6 +792,8 @@ Let's solve this step by step:
 
 **Answer:** $40
 
+**Correct:** Yes (+2)
+
 ---
 
 ## Question s2q02
@@ -751,6 +811,8 @@ Let's solve this step by step:
 6) Therefore, the longest piece = 7 × 22 = 154 cm
 
 **Answer:** 154
+
+**Correct:** Yes (+2)
 
 ---
 
@@ -781,6 +843,8 @@ Let's solve this step by step:
 
 **Answer:** 180
 
+**Correct:** No
+
 ---
 
 ## Question s2q04
@@ -809,6 +873,8 @@ To verify:
 
 **Answer:** 13
 
+**Correct:** Yes (+2)
+
 ---
 
 ## Question s2q05
@@ -833,6 +899,8 @@ Let me solve this step by step:
 
 **Answer:** 2 liters
 
+**Correct:** No
+
 ---
 
 ## Question s2q06
@@ -854,6 +922,8 @@ Let's solve:
 - Therefore, number of students in Brownies = 12% of 300 = 36 students
 
 **Answer:** ['30%', '36 students']
+
+**Correct:** Yes (+1, +2)
 
 ---
 
@@ -881,6 +951,8 @@ Therefore, it will take 46 minutes to fill the container completely.
 
 **Answer:** 46 minutes
 
+**Correct:** No
+
 ---
 
 ## Question s2q08
@@ -907,6 +979,8 @@ Let me solve this step by step:
 (Note: 920 + 760 = 1680 km, which confirms our calculation)
 
 **Answer:** ['12:00 PM', 'Train X: 920 km, Train Y: 760 km']
+
+**Correct:** Yes (+1, +2)
 
 ---
 
@@ -940,6 +1014,8 @@ Let's solve this step by step:
 
 **Answer:** 150
 
+**Correct:** Yes (+3)
+
 ---
 
 ## Question s2q10
@@ -966,6 +1042,8 @@ Let's solve this step by step:
 Therefore, the distance between Adam's home and the park is 38.5 kilometers.
 
 **Answer:** 38.5 kilometers
+
+**Correct:** Yes (+3)
 
 ---
 
@@ -994,6 +1072,8 @@ Let's solve this step by step:
 - Therefore, ∠BEF = 112°
 
 **Answer:** ['138°', '68°', '112°']
+
+**Correct:** No
 
 ---
 
@@ -1033,6 +1113,8 @@ Let's solve this step by step:
 
 **Answer:** 495
 
+**Correct:** Yes (+4)
+
 ---
 
 ## Question s2q13
@@ -1062,6 +1144,8 @@ Let's solve this step by step:
      = 1.05 - (1/5 × 1.47) = 1.05 - 0.294 = 0.756 litres
 
 **Answer:** ['1.47 litres', '0.756 litres']
+
+**Correct:** No
 
 ---
 
@@ -1098,6 +1182,8 @@ Therefore, Gary needs to win 7 times in a row to achieve 98 points.
 
 **Answer:** ['13 points', '7 wins']
 
+**Correct:** Yes (+2), No
+
 ---
 
 ## Question s2q15
@@ -1126,6 +1212,8 @@ Let's solve this step by step:
 
 
 **Answer:** 75.36
+
+**Correct:** No
 
 ---
 
@@ -1168,6 +1256,8 @@ Let me solve this step by step:
 
 **Answer:** ['$4680', '20']
 
+**Correct:** Yes (+2), No
+
 ---
 
 ## Question s2q17
@@ -1201,5 +1291,7 @@ Part (b):
 7. Solving this equation: x = 1080
 
 **Answer:** ['1/12', '$1080']
+
+**Correct:** Yes (+1), No
 
 ---

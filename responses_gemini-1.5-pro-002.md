@@ -19,6 +19,8 @@ The missing number is 800 000.
 
 **Choice:** 4
 
+**Correct:** Yes (+1)
+
 ---
 
 ## Question s1q02
@@ -35,6 +37,8 @@ The choice (4) lists 4 and 8 as common factors.
 
 **Choice:** 4
 
+**Correct:** Yes (+1)
+
 ---
 
 ## Question s1q03
@@ -49,6 +53,8 @@ To express 0.5 as a percentage, we multiply by 100%.
 
 **Choice:** 4
 
+**Correct:** Yes (+1)
+
 ---
 
 ## Question s1q04
@@ -61,6 +67,8 @@ Let Ben's age be B. Andy is 12 years old. Andy is z years older than Ben. So, An
 **Answer:** (12 - z) years old
 
 **Choice:** 2
+
+**Correct:** Yes (+1)
 
 ---
 
@@ -79,6 +87,8 @@ The largest value is 0.777..., which corresponds to 7/9.
 **Answer:** 7/9
 
 **Choice:** 1
+
+**Correct:** Yes (+1)
 
 ---
 
@@ -105,6 +115,8 @@ The amounts that are not possible are $1.40.
 
 **Choice:** 2
 
+**Correct:** Yes (+1)
+
 ---
 
 ## Question s1q07
@@ -118,6 +130,8 @@ Let S be the sum of the 5 numbers. Since the average of the 5 numbers is 14, we 
 
 **Choice:** 2
 
+**Correct:** Yes (+1)
+
 ---
 
 ## Question s1q08
@@ -130,6 +144,8 @@ Point A is north of point B. Angle ABC is 140 degrees. Since 140 degrees is betw
 **Answer:** South-West
 
 **Choice:** 4
+
+**Correct:** Yes (+1)
 
 ---
 
@@ -152,6 +168,8 @@ boxed{172}$
 
 **Choice:** 1
 
+**Correct:** Yes (+1)
+
 ---
 
 ## Question s1q10
@@ -167,6 +185,8 @@ Ratio of girls to boys = 33 : 51 = 11 : 17
 **Answer:** 11 : 17
 
 **Choice:** 1
+
+**Correct:** Yes (+1)
 
 ---
 
@@ -184,6 +204,8 @@ The closest answer is 53.
 
 **Choice:** 4
 
+**Correct:** No (Correct option is #3)
+
 ---
 
 ## Question s1q12
@@ -200,6 +222,8 @@ Given pi = 3.14 and r = 10, the perimeter is 3.14 * 10 = 31.4 cm.
 
 **Choice:** 1
 
+**Correct:** No (Correct option is #3)
+
 ---
 
 ## Question s1q13
@@ -215,6 +239,8 @@ The time of his last intake will be after (6-1)*3 = 15 hours after 4 a.m. So, 4 
 
 **Choice:** 3
 
+**Correct:** Yes (+2)
+
 ---
 
 ## Question s1q14
@@ -228,6 +254,8 @@ A cube has 6 faces.  Options (1), (3) and (4) have 6 squares which can be folded
 
 **Choice:** 2
 
+**Correct:** No (Correct option is #1)
+
 ---
 
 ## Question s1q15
@@ -240,5 +268,7 @@ Let the total amount of money Lisa have be M. Lisa spent 20% of her money on a b
 **Answer:** $0. However, there is no information about the bag. So, the bag must be something Lisa already owns, which she didn't spend any more money on. So, the closest answer to $0 within the options is $16. Therefore, $16 is a likely answer. 
 
 **Choice:** 1
+
+**Correct:** Yes (+2)
 
 ---
