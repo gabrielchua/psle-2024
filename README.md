@@ -7,7 +7,7 @@ Here we evaluate the performance of different LLMs on the PSLE 2024 questions.
 |--------------------------------------------|-------------|
 | gpt-4o-2024-11-20                          | 48          |
 | anthropic.claude-3-5-sonnet-20241022-v2:0  | 52          |
-| gemini-1.5-pro-002                         | 0           |
+| gemini-1.5-pro-002                         | TBD         |
 
 ## Prompt
 See `config.py` for the system prompt used.
